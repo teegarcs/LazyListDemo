@@ -1,0 +1,37 @@
+[versions]
+android-compile-sdk = "34"
+android-min-sdk = "31"
+android-target-sdk = "34"
+
+activityCompose = "1.8.1"
+androidxComposeBom = "2023.03.00"
+composeCompiler = "1.4.3"
+coreKtx = "1.12.0"
+hiltAndroid = "2.48.1"
+lifecycleRuntimeCompose = "2.6.2"
+lifecycleRuntimeKtx = "2.6.2"
+coil = "2.5.0"
+
+[libraries]
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+androidx-compose-graphics = { module = "androidx.compose.ui:ui-graphics" }
+androidx-compose-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
+androidx-compose-icons-core = { module = "androidx.compose.material:material-icons-core" }
+androidx-compose-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
+
+
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeCompose" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+coil = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+
+
+[plugins]
+
+[bundles]
+
